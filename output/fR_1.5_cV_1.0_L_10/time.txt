@@ -1,0 +1,23 @@
+	Command being timed: "../CoatedCylinder 1.5 1.0 10"
+	User time (seconds): 54534.14
+	System time (seconds): 623.52
+	Percent of CPU this job got: 764%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:00:13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 313008
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 6851222
+	Voluntary context switches: 621867
+	Involuntary context switches: 825091
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 315840
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
