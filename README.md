@@ -6,6 +6,9 @@ This repository is intended to provide a compact and reproducible computational 
 
 <img width="500" height="500" alt="centre_of_mass_trajectory" src="https://github.com/user-attachments/assets/7a8c4402-b54f-466b-a6ce-8fc1881ffcd7" />
 
+> [!NOTE]
+> This implementation was built and adapted *a posteriori*, following an initial effort in [Gerris](https://gerris.dalembert.upmc.fr/) in 2019, which underpinned the results in the publication itself. For more details on the original implementation, please refer to Appendix A.3 within the respective study. While some workflow details have been adapted, the overall structure and parametric setup was intentionally kept closely linked with the published contribution - see Figure 6(b) and Table 1 in particular as foundations for the example figure above and the broader configuration of the reference case in this repository itself.
+
 ---
 
 ## 📌 Features
