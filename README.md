@@ -184,8 +184,7 @@ TRACE_LEVEL=0 USE_PERF=0 sh run_cylinder.sh
 
 ## 📁 Recommended repository structure
 
-The file upload in this repository<img width="3043" height="3060" alt="centre_of_mass_trajectory" src="https://github.com/user-attachments/assets/427ced33-9978-4750-adb9-62b95a73a05d" />
- is a minimal working version which contains the necessary files for reproducibility, as well as sample output in the sense of only a subset of the files being uploaded while trying to strike the balance between the framework being informative and compact. Once familiarity with the codebase has been reached, the following structure for this repository is recommended:
+The files in this repository and their organisation represent a minimal working version of the implementation, which encompasses the necessary ingredients for reproducibility, as well as sample output (in the sense of only a subset of the files being uploaded while trying to strike the balance between the framework being informative and compact). Once familiarity with the codebase has been reached, the following structure for the codebase is recommended:
 
 ```text
 .
