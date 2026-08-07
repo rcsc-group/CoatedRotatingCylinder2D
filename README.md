@@ -182,8 +182,37 @@ TRACE_LEVEL=0 USE_PERF=0 sh run_cylinder.sh
 
 ---
 
-## 📁 Recommended repository structure
+## 📁 Repository structure
 
+```text
+.
+├── CoatedCylinder.c
+├── run_cylinder.sh
+├── run_cylinder_sweep.sh
+│
+├── plot_com_trajectory.py
+├── plot_com_trajectory_resolution.py
+├── plot_thickness.py
+├── plot_thickness_resolution.py
+├── postprocess_common.py
+│
+├── output/
+│   └── fR_1.5_cV_1.0_L_10/
+│       └── ...
+│
+├── LICENSE
+└── README.md
+```
+
+The repository is deliberately kept compact:
+
+- `CoatedCylinder.c` contains the Basilisk simulation.
+- `run_cylinder.sh` provides the standard single-case/benchmark workflow.
+- `run_cylinder_sweep.sh` manages parameter and resolution sweeps.
+- `postprocess_common.py` contains the shared Python analysis utilities.
+- `plot_*.py` scripts generate single-case and resolution-comparison figures.
+- `output/` contains a representative simulation output using the same directory convention produced by the sweep workflow.
+  
 The files in this repository and their organisation represent a minimal working version of the implementation, which encompasses the necessary ingredients for reproducibility, as well as sample output (in the sense of only a subset of the files being uploaded while trying to strike the balance between the framework being informative and compact). Once familiarity with the codebase has been reached, the following structure for the codebase is recommended:
 
 ```text
@@ -210,7 +239,7 @@ The files in this repository and their organisation represent a minimal working 
 └── README.md
 ```
 
-`DriverCode/` contains the simulation and execution workflow. `PostProcessing/` contains the reusable Python analysis suite. `Figures/` and `SupplementaryMovies/` are natural locations for representative visualisations or publication material.
+`DriverCode/` contains the simulation and execution workflow. `PostProcessing/` contains the reusable Python analysis suite. `Figures/` and `SupplementaryMovies/` are natural locations for representative visualisations or outward-facing material in general.
 
 ---
 
